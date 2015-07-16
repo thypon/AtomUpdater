@@ -1,12 +1,10 @@
 #AtomUpdater
 
 This is a simple bash script to update Atom and its plugin.
+It will download the .deb file from there: https://github.com/atom/atom/releases/latest. 
 
-It will download the .deb file from there https://github.com/atom/atom/releases/latest. 
-
-
+###Options
 AtomUpdater has four options: 
-
 
 * *-upkg, --upgrade-packages* : It will update **all** package of Atom
 * *-l, --list* : It will list all packages of Atom
@@ -19,11 +17,11 @@ TODO:
 - [ ] Add RPM file too;
 - [ ] ...
 
-##Why bash?!
+###Why bash?!
 Why not?! Bash is cool!
 
 ###Why only deb?
 
-I use debian. Debian Rulez. Period.
+I use debian. Debian rulez. Period.
 
 (well, maybe I'll add rpm too... )
